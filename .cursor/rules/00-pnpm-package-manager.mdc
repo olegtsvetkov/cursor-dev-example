@@ -1,0 +1,7 @@
+---
+description: package manager
+globs:
+alwaysApply: true
+---
+
+Use pnpm package manager. Don't use npm.
