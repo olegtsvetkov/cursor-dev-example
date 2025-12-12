@@ -6,7 +6,13 @@
 
 Этот проект — практический пример того, как можно упростить разработку с помощью ИИ, применяя принципы обычной продуктовой разработки. Подход основан на трёх шагах: описание фичи, создание PRD и реализация кода.
 
-Всё на базе [Cursor](https://cursor.com)
+Всё на базе [Cursor](https://cursor.com).
+
+## Структура проекта
+
+- `.cursor/commands/` — команды для выполнения разных задач через ИИ-агентов.
+- `.cursor/rules/` — правила для ИИ-агентов в Cursor. 01-project-arch и 05-code-style не полные, т.к. в них крайне важна специфика продукта и проекта. Рассматривайте их как пример, который дальше нужно активно расширять.
+- `.cursor/prd/` — доки, по которым ИИ-агент ведёт разработку.
 
 ## Подход к разработке
 
@@ -68,5 +74,5 @@ PRD передаётся во вторую команду ИИ агента дл
 
 Олег Цветков — https://t.me/olegtsvetkov
 
-Пишу про лидерство и менеджмент в журнале Zen Hills: [https://zenhills.ru](https://zenhills.ru/articles/topgrading/?utm_source=github&utm_medium=olegtsvetkov&utm_campaign=github_ai_cursor_setup)
+Пишу про лидерство и менеджмент в журнале Zen Hills: [https://zenhills.ru](https://zenhills.ru/?utm_source=github&utm_medium=olegtsvetkov&utm_campaign=github_ai_cursor_setup)
 И свои мысли более часто в ТГ: https://t.me/tsvetkovdaily
